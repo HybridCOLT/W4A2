@@ -1,19 +1,19 @@
-#header_container {
-  display: grid;
-  height: auto;
-  width: 100%;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  border: 8px solid black;
-  background-color: aqua;
-  align-items: center;
-  justify-items: center;
+* {
+  margin: 0;
 }
 
-.logo {
-  justify-self: start;
-  padding-left: 20px;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.links {
-  justify-items: center;
+header,
+footer {
+  background-color: blue;
+}
+
+
+main {
+  flex-grow: 1;
 }
